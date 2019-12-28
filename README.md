@@ -116,6 +116,9 @@ H1B1 Singapore 0.306% H1B1 Chile 0.25%
 It can be inferred from the plot that the 97% of Visa are applied for H1B. Other visa categories are less than 2%. It indicates that most of the visa are applied for H1B
 
 # Top 20 Employeer applied for H1B Visa
-<img src="" width="383" height="527" align="middle" />
-#### Observations:
+<img src="https://github.com/karthikeyanbalusamy/EDA-Project/blob/master/Images/TopEmployeer.png" width="383" height="527" align="middle" />
+
+#### Observation
 Microsoft is the top company applied for H1B Visa, followed by CTS, PATNI, IBM & Infosys. As opposed to other industry, IT companies are the topper in applying for the visa
+
+### # Top Jobs applied for H1B Visa
