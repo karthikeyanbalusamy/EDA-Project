@@ -106,7 +106,7 @@ After dropping the JOB TITLE  = '2222' (outlier), valid jobs are shown in the da
 
 ### 5. Analysis
 #### Number of H1B Visa applied for each Visa Category
-<img src="https://" width="840" height="260" align="middle" />
+<img src="https://github.com/karthikeyanbalusamy/EDA-Project/blob/master/Images/VisaCategory.PNG" width="439" height="352" align="middle" />
 
 H1B 97% E3 Australian 1.8% 
 H1B1 Singapore 0.306% H1B1 Chile 0.25%
