@@ -143,7 +143,6 @@ Rejected Visas are in H1B Visa catagory, other visa types such as Australian; H-
 <img src="https://github.com/karthikeyanbalusamy/EDA-Project/blob/master/Images/EmpPreferredCity.png" width="436" height="357" align="middle" />
 
 #### Observations:
-#### Observations:
 - Most of the workers (aound __50%__) prefers to work in __New York__ city.
 - Next 50% of the people prefers the below cities:
   Houston (18%), Chicago (12%), Redmond (11%) & Atlanta (10%)
