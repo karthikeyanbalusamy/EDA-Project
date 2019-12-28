@@ -122,3 +122,16 @@ It can be inferred from the plot that the 97% of Visa are applied for H1B. Oth
 Microsoft is the top company applied for H1B Visa, followed by CTS, PATNI, IBM & Infosys. As opposed to other industry, IT companies are the topper in applying for the visa
 
 ### # Top Jobs applied for H1B Visa
+<img src="https://github.com/karthikeyanbalusamy/EDA-Project/blob/master/Images/TopJobs.png" width="383" height="527" align="middle" />
+
+#### Observations:
+- It has been observed that Programmer Analyst has the top in applying for the H1B visa, followed by Software Engineer, Computer Programmer, System Analyst, Assistant Professor. It clearly indicates that more job demand for Software industry.
+
+### # Top Salaried jobs
+<img src="https://github.com/karthikeyanbalusamy/EDA-Project/blob/master/Images/TopSalariedJob.png" width="405" height="462" align="middle" />
+#### Observations:
+System Analyst, Research Worker are the top most paid job in US. Followed by Sr. Applications Engineer, Sr. Software Engineer, Computer Support Specialist.
+
+### # Approval Status by Visa Type
+<img src="https://github.com/karthikeyanbalusamy/EDA-Project/blob/master/Images/TopSalariedJob.png" width="699" height="370" align="middle" />
+#### Observations:
