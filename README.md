@@ -129,9 +129,27 @@ Microsoft is the top company applied for H1B Visa, followed by CTS, PATNI, IBM &
 
 ### # Top Salaried jobs
 <img src="https://github.com/karthikeyanbalusamy/EDA-Project/blob/master/Images/TopSalariedJob.png" width="405" height="462" align="middle" />
+
 #### Observations:
 System Analyst, Research Worker are the top most paid job in US. Followed by Sr. Applications Engineer, Sr. Software Engineer, Computer Support Specialist.
 
 ### # Approval Status by Visa Type
-<img src="https://github.com/karthikeyanbalusamy/EDA-Project/blob/master/Images/TopSalariedJob.png" width="699" height="370" align="middle" />
+<img src="https://github.com/karthikeyanbalusamy/EDA-Project/blob/master/Images/ApprovalStatus.png" width="697" height="370" align="middle" />
+
 #### Observations:
+Rejected Visas are in H1B Visa catagory, other visa types such as Australian; H-1B1 Chile, H-1B1 Singapore have no rejection.
+
+### # Employee Preferred City
+<img src="https://github.com/karthikeyanbalusamy/EDA-Project/blob/master/Images/EmpPreferredCity.png" width="436" height="357" align="middle" />
+
+#### Observations:
+#### Observations:
+- Most of the workers (aound __50%__) prefers to work in __New York__ city.
+- Next 50% of the people prefers the below cities:
+  Houston (18%), Chicago (12%), Redmond (11%) & Atlanta (10%)
+- Overall, New York stands in top, while comparing to other cites.
+
+### Conclusion
+- H1B Visa petition analysis being conducted helps us to know the Demand on Jobs, Highly paid salary on Jobs, Employers creation more opportunities & Employee preferred city.
+- Based on the result, this certainly helps the US Job workers to make a decision on the above data.
+- IT Industry is the top in different parameters such as Salary, Demand and employers as opposed to other industry.
