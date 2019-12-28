@@ -61,7 +61,7 @@ PROGRAM_DESIGNATION,PREVAILING_WAGE_1,CITY_1
 
 #### Observations
 
-Noticed the CITY column contains many invalid data. For Example:
+#Noticed the CITY column contains many invalid data. For Example:
 '1','chicago illinois metro area analysis','bethesda-gaithersburg-frederick, md metro'  etc. 
 Hence, Master city csv file is created with all the US CITY names, which will be compared with the CITY field in the H1B Dataset. Invalid city data will be identified and replaced with NaN.
 
@@ -70,3 +70,47 @@ Hence, Master city csv file is created with all the US CITY names, which will be
 
 #### Observations
 Program Designation have the code, which indicates the type of temporary application submitted for processing. R = H-1B; A = E-3 Australian; C = H-1B1 Chile; S = H-1B1 Singapore. Hence the description column will be created and map the code with Visa description for better understanding & readability.
+
+#PREVAILING_WAGE_1
+#### Observations
+While analyzing, noticed that the JOB_TITLE column have invalid data '2222' also which has extremely high salary '222222222'. Hence this is listed top in high salaried job. JOB TITLE '2222' will be dropped.
+
+<a id=section307></a> 
+### 3.7. Final observations 
+- Summary of data types in this dataset:
+
+It has been observed that most of the data are seems to be fine, except few. For Instance,
+- __CITY_1__ has many invalid data. To clean up, data will be compared with the master city list (another CSV file). If it does not match, then the invalid data will be replaced with NaN. Refer the section 3: Data Profiling.
+
+- __Program Destignation__ column has code to indicate the Visa Type. Hence, for better readibility and graph plotting, description column will be created and map the code with Visa description.
+
+- __JOB_TITLE__ column has the invalid data '2222'. which also has the highest salaried value '222222222', which will impact the highest salaried job. Hence this outlier row will be dropped.
+
+<a id=section4></a> 
+### 4. Data Normalization
+
+### 4.1. Clean up the CITY data
+
+#### Observations
+Invalid CITY names are replaced with NaN. Invalid data observed in section 3 is not available.
+
+### 4.1. Map the PROGRAM_DESIGNATION Code with the VISA Type Description
+
+#### Observations
+Visa Type column is created with the Visa description. It enables the user to interpret the Visa description easily.
+
+### 4.2. Remove Outliers in JOB TITLE column
+
+#### Observations
+After dropping the JOB TITLE  = '2222' (outlier), valid jobs are shown in the data.
+
+### 5. Analysis
+#### Number of H1B Visa applied for each Visa Category
+<img src="https://" width="840" height="260" align="middle" />
+
+H1B 97% E3 Australian 1.8% 
+H1B1 Singapore 0.306% H1B1 Chile 0.25%
+
+####Observation
+
+It can be inferred from the plot that the 97% of Visa are applied for H1B. Other visa categories are less than 2%. It indicates that most of the visa are applied for H1B
